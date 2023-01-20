@@ -43,7 +43,7 @@ body {
     align-items: center;
 }
 
-.container {
+.header__container {
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -69,7 +69,7 @@ body {
     font-size: 18px;
 }
 
-.header__logo img {
+.header__img {
     max-width: 100%;
 }
 
@@ -104,7 +104,7 @@ body {
     padding: 15px;
 }
 
-.logo-text {
+.header__logo-text {
     position: relative;
     top: 5px;
     font-family: Inter;
@@ -118,7 +118,7 @@ body {
     color: black;
 }
 
-.btn {
+.header__btn-title {
     width: 200px;
     height: 55px;
     background: #0099FF;
@@ -129,6 +129,21 @@ body {
     font-weight: 500;
     font-size: 18px;
 }
+
+
+.about__btn-title {
+    width: 200px;
+    height: 55px;
+    background: #0099FF;
+    border: none;
+    border-radius: 5px;
+    font-family: Inter;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
 
 .display {
     display: flex;
@@ -160,7 +175,7 @@ body {
     font-weight: 400;
 }
 
-.pic {
+.display__pic {
     width: 50%;
 }
 
@@ -291,7 +306,7 @@ body {
     width: 50%;
 }
 
-.laptop {
+.about__img {
     width: 100%;
     height: auto;
     max-height: 735px;
@@ -508,7 +523,7 @@ body {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.insta {
+.website__screenshot {
     width: 100%;
     height: auto;
 }
@@ -517,6 +532,18 @@ body {
 .website__text {
     font-size: 14px;
     font-weight: 400;
+}
+
+.website__button {
+    width: 200px;
+    height: 55px;
+    background: #0099FF;
+    border: none;
+    border-radius: 5px;
+    font-family: Inter;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 
@@ -556,13 +583,15 @@ body {
     font-size: 18px;
 }
 
+
+
 .experts__container {
     display: grid;
     justify-items: center;
     padding-bottom: 100px;
 }
 
-.exp {
+.experts__img {
     width: 100%;
     height: auto;
     border-radius: 4px;
@@ -608,7 +637,7 @@ body {
 
 }
 
-.details-content p {
+.facts__text {
     padding-left: 1rem;
     font-family: Inter;
     font-size: 16px;
@@ -792,7 +821,7 @@ details[open] > summary::after {
     width: 80%;
 }
 
-.banner__button {
+.banner__button-title {
     width: 200px;
     height: 55px;
     background: #0099FF;
@@ -810,7 +839,7 @@ details[open] > summary::after {
     gap: 25px;
 }
 
-.inp {
+.footer-input {
     background: #333333;
     font-family: 'Inter';
     font-style: normal;
@@ -983,7 +1012,7 @@ color: white;
 
 
 @media (max-width: 1400px) {
-    .cover {
+    .display__img {
         max-width: 600px;
     }
 .websites {
@@ -1013,13 +1042,13 @@ color: white;
     display: grid;
 }
 
-.pic {
+.display__pic {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.cover {
+.display__img {
    width: 100%;
     height: auto;
     max-height: 735px;
@@ -1220,7 +1249,7 @@ color: white;
         justify-items: center;
     }
 
-    .banner__click {
+    .banner__button {
         display: grid;
         justify-content: center;
     }
@@ -1329,12 +1358,11 @@ color: white;
     }
 
 
-    .header__burger.active span {
+    .header__burger.active .header__burger-line_center {
         transform: scale(0);
-
     }
 
-    .header__burger span {
+    .header__burger-line_center {
         background-color: #0099FF;
         position: absolute;
         left: 0;
@@ -1430,8 +1458,15 @@ color: white;
         height: 40px;
     }
 
+    .webste__button {
+        width: 120px;
+        font-size: 12px;
+        height: 40px;
+    }
 
-    .banner__button {
+
+
+    .banner__button-title {
         width: 120px;
         font-size: 12px;
         height: 40px;
