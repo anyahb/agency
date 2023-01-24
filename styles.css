@@ -588,7 +588,6 @@ body {
 .experts__container {
     display: grid;
     justify-items: center;
-    padding-bottom: 100px;
 }
 
 .experts__img {
@@ -732,6 +731,7 @@ details[open] > summary::after {
     font-weight: 700;
     color: #333333;
     padding-top: 120px;
+    padding-top: 50px;
 }
 
 
@@ -739,7 +739,6 @@ details[open] > summary::after {
     font-size: 16px;
     font-family: Inter;
     font-weight: 400;
-    padding-bottom: 70px;
     line-height: 24px;
 }
 
@@ -1157,15 +1156,15 @@ color: white;
     }
 
     .services__description {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .recent__description {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .facts__description {
-        font-size: 36px;
+        font-size: 30px;
     }
 
 
@@ -1188,7 +1187,7 @@ color: white;
     }
 
     .about__description {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .about__text {
@@ -1199,9 +1198,7 @@ color: white;
         width: 80%;
     }
 
-    .display__heading {
-        font-size: 36px;
-    }
+
 
     .experts__overlay {
         left: unset;
@@ -1231,7 +1228,7 @@ color: white;
 
 
     .testimonials__description {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .banner__description {
@@ -1387,7 +1384,9 @@ color: white;
 
     .header__menu.active {
         top: 0;
-        padding: 70px 10px 20px 10px;
+        padding: 70px 10px 20px 0px;
+        display: flex;
+        justify-content: center;
     }
 
 
@@ -1578,11 +1577,11 @@ color: white;
     }
 
     .services__description {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .recent__description {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .display__heading {
@@ -1591,26 +1590,26 @@ color: white;
 
 
     .services__description {
-        font-size: 36px;
+        font-size: 30px;
         text-align: center;
     }
 
     .recent__description {
-        font-size: 36px;
+        font-size: 30px;
         text-align: center;
     }
 
     .about__description {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .facts__description {
-        font-size: 36px;
+        font-size: 30px;
         margin: 20px;
     }
 
     .testimonials__description {
-        font-size: 36px;
+        font-size: 30px;
     }
 
 
@@ -1631,7 +1630,7 @@ color: white;
     }
 
     .item-services__title {
-        font-size: 16px;
+        font-size: 14px;
     }
 
 
@@ -1651,9 +1650,7 @@ color: white;
         font-size: 30px;
     }
 
-    .display__heading {
-        font-size: 30px;
-    }
+
 
     .services__description {
         font-size: 30px;
