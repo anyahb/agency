@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: Inter;
     src: url("./fonts/Inter-Regular.ttf");
@@ -142,7 +141,6 @@ body {
     font-weight: 500;
     font-size: 18px;
 }
-
 
 
 .display {
@@ -312,7 +310,6 @@ body {
     max-height: 735px;
     max-width: 735px;
 }
-
 
 
 .about__description {
@@ -584,7 +581,6 @@ body {
 }
 
 
-
 .experts__container {
     display: grid;
     justify-items: center;
@@ -647,16 +643,12 @@ body {
 }
 
 
-
 .el-title {
     margin: 30px;
     font-family: "Inter";
     font-weight: 500;
     font-size: 18px;
 }
-
-
-
 
 
 .facts__main {
@@ -672,8 +664,6 @@ body {
 }
 
 
-
-
 details > summary {
     font-family: "Inter";
     font-weight: 500;
@@ -682,7 +672,7 @@ details > summary {
     display: flex;
     justify-content: space-between;
     cursor: pointer;
-     height: 100px;
+    height: 100px;
     align-items: center;
     background: white;
     border-radius: 5px;
@@ -707,7 +697,6 @@ details[open] > summary::after {
     background: white;
 
 }
-
 
 
 .arrow-up {
@@ -973,13 +962,13 @@ details[open] > summary::after {
 }
 
 .our-title {
-font-family: Inter;
-font-size: 60px;
-font-weight: 700;
-line-height: 66px;
-letter-spacing: -0.015em;
-text-align: center;
-color: white;
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: white;
 }
 
 .our-description {
@@ -1008,117 +997,118 @@ color: white;
 }
 
 
-
-
 @media (max-width: 1400px) {
     .display__img {
         max-width: 600px;
     }
-.websites {
-    display: grid;
-}
 
-.services__additional {
-    padding-bottom: unset;
-}
+    .websites {
+        display: grid;
+    }
+
+    .services__additional {
+        padding-bottom: unset;
+    }
 
     .recent__additional {
         padding-bottom: unset;
     }
 }
 
+@media screen and (max-width: 1280px) {
+    .testimonials__container {
+        padding: 0 30px;
+    }
+}
+
 
 @media (max-width: 1200px) {
 
-.facts__container {
-    width: 700px;
-}
+    .facts__container {
+        width: 700px;
+    }
 
 
+    .display {
+        display: grid;
+    }
+
+    .display__pic {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .display__img {
+        width: 100%;
+        height: auto;
+        max-height: 735px;
+        max-width: 720px;
+    }
 
 
-.display {
-    display: grid;
-}
+    .display__container {
+        width: 100%;
+        display: grid;
+        align-content: center;
+        margin: unset;
+    }
 
-.display__pic {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
+    .display__introduction {
+        text-align: center;
+        display: grid;
+        justify-items: center;
+    }
 
-.display__img {
-   width: 100%;
-    height: auto;
-    max-height: 735px;
-    max-width: 720px;
-}
+    .display__buttons {
+        justify-content: center;
+    }
 
+    .display__heading {
+        font-size: 50px;
+        width: 50%;
+    }
 
-.display__container {
-    width: 100%;
-    display: grid;
-    align-content: center;
-    margin: unset;
-}
+    .display__description {
+        width: 50%;
+    }
 
-.display__introduction {
-    text-align: center;
-    display: grid;
-    justify-items: center;
-}
+    .nav-group-2 {
+        gap: 20px;
+    }
 
-.display__buttons {
-    justify-content: center;
-}
+    .services__options {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
-.display__heading {
-    font-size: 50px;
-    width: 50%;
-}
+    .about__container {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        text-align: center;
+    }
 
-.display__description {
-    width: 50%;
-}
+    .about__additional {
+        width: unset;
+    }
 
-.nav-group-2 {
-    gap: 20px;
-}
+    .about__text {
+        width: 50%;
+    }
 
-.services__options {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+    .about__pic {
+        padding-bottom: 100px;
+    }
 
-.about__container {
-    width: 100%;
-    display: grid;
-    justify-items: center;
-    text-align: center;
-}
-
-.about__additional {
-    width: unset;
-}
-
-.about__text {
-    width: 50%;
-}
-
-.about__pic {
-    padding-bottom: 100px;
-}
-
-.experts__badges {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+    .experts__badges {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
     .facts-el {
         width: 750px;
     }
-
-
 
 
     .el-title {
@@ -1129,21 +1119,10 @@ color: white;
         font-size: 28px;
     }
 
-
 }
-
-
-@media screen and (max-width: 1280px) {
-    .testimonials__container {
-        padding: 0 30px;
-    }
-}
-
-
 
 
 @media (max-width: 900px) {
-
 
     .btn {
         width: 120px;
@@ -1166,7 +1145,6 @@ color: white;
     .facts__description {
         font-size: 30px;
     }
-
 
     .services__additional {
         padding-bottom: unset;
@@ -1198,8 +1176,6 @@ color: white;
         width: 80%;
     }
 
-
-
     .experts__overlay {
         left: unset;
         width: 100%;
@@ -1208,8 +1184,6 @@ color: white;
     .facts-el {
         width: 550px;
     }
-
-
 
     .testimonials__options {
         display: grid;
@@ -1225,7 +1199,6 @@ color: white;
         display: grid;
         justify-content: center;
     }
-
 
     .testimonials__description {
         font-size: 30px;
@@ -1275,7 +1248,6 @@ color: white;
         gap: 15px;
         justify-content: unset;
     }
-
 
 }
 
@@ -1376,10 +1348,8 @@ color: white;
         width: 100%;
         height: 100%;
         background-color: white;
-
         transition: all 0.3s ease 0s;
         overflow: auto;
-
     }
 
     .header__menu.active {
@@ -1388,7 +1358,6 @@ color: white;
         display: flex;
         justify-content: center;
     }
-
 
     .content {
         padding: 50px 0 0 0;
@@ -1432,7 +1401,6 @@ color: white;
         grid-template-columns: unset;
     }
 
-
     .website {
         height: 534px;
         width: 320px;
@@ -1463,14 +1431,11 @@ color: white;
         height: 40px;
     }
 
-
-
     .banner__button-title {
         width: 120px;
         font-size: 12px;
         height: 40px;
     }
-
 
     .facts-el {
         width: 400px;
@@ -1480,7 +1445,6 @@ color: white;
         height: 250px;
         width: 370px;
     }
-
 
     .about__btn-title {
         width: 120px;
@@ -1510,7 +1474,6 @@ color: white;
         font-size: 14px;
     }
 
-
     .display__description {
         font-size: 14px;
     }
@@ -1527,7 +1490,6 @@ color: white;
         height: 40px;
     }
 
-
     .display__description {
         font-size: 12px;
     }
@@ -1539,11 +1501,9 @@ color: white;
         margin: 50px 15px;
     }
 
-
     .facts__container {
         width: 250px;
     }
-
 
     .services__additional {
         font-size: 14px;
@@ -1599,7 +1559,6 @@ color: white;
         font-size: 36px;
     }
 
-
     .services__description {
         font-size: 30px;
         text-align: center;
@@ -1623,7 +1582,6 @@ color: white;
     .testimonials__description {
         font-size: 30px;
     }
-
 
     .footer__section {
         width: 100%;
@@ -1654,7 +1612,6 @@ color: white;
         padding-bottom: 50px;
     }
 
-
 }
 
 @media (max-width: 360px) {
@@ -1666,12 +1623,9 @@ color: white;
         height: 230px;
     }
 
-
     .about__description {
         font-size: 30px;
     }
-
-
 
     .services__description {
         font-size: 30px;
@@ -1710,6 +1664,5 @@ color: white;
     .item-services__text {
         font-size: 12px;
     }
-
 
 }
