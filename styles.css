@@ -1384,7 +1384,7 @@ color: white;
 
     .header__menu.active {
         top: 0;
-        padding: 70px 10px 20px 0px;
+        padding: 70px 10px 20px 0;
         display: flex;
         justify-content: center;
     }
@@ -1482,10 +1482,24 @@ color: white;
     }
 
 
-}
+    .about__btn-title {
+        width: 120px;
+        font-size: 12px;
+        height: 40px;
+    }
 
+    .website__button {
+        width: 120px;
+        font-size: 12px;
+        height: 40px;
+    }
 
-@media (max-width: 600px) {
+    .footer__button {
+        width: 120px;
+        font-size: 12px;
+        height: 40px;
+    }
+
     .display__button_start {
         width: 150px;
         font-size: 14px;
@@ -1500,10 +1514,7 @@ color: white;
     .display__description {
         font-size: 14px;
     }
-}
 
-
-@media (max-width: 600px) {
     .display__button_start {
         width: 120px;
         font-size: 12px;
@@ -1606,6 +1617,7 @@ color: white;
     .facts__description {
         font-size: 30px;
         margin: 20px;
+        padding-bottom: 30px;
     }
 
     .testimonials__description {
@@ -1631,6 +1643,15 @@ color: white;
 
     .item-services__title {
         font-size: 14px;
+    }
+
+    .about__container {
+        padding-bottom: 50px;
+        padding-top: unset;
+    }
+
+    .about__pic {
+        padding-bottom: 50px;
     }
 
 
